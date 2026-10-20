@@ -1,0 +1,13 @@
+    
+    {%extends "layout.html" %}
+        {%block container%}
+    <h1>
+        Hola Menudo 
+    </h1>
+    <h1>Curso {{titulo}}</h1>
+    <h2>Nombres de Infieles:</h2>
+    {%for value in lista %}
+        <h2>{{value}}</h2>
+    {%endfor%}
+
+    {%endblock%}
